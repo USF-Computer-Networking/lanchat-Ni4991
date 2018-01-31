@@ -27,7 +27,7 @@ def ping_ip(ip_str):
     print "ip: %s is ok ***"%ip_str 
  
 def find_ip(ip_prefix): 
-  for i in range(1,256): 
+  for i in range(1256): 
     ip = '%s.%s'%(ip_prefix,i) 
     thread.start_new_thread(ping_ip, (ip,)) 
     time.sleep(0.3) 
