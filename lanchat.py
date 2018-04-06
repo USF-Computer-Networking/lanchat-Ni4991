@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+''' 
+    lanchat.py
+    A program that supports scanning and UDP chat
+    Scanning is achieved by using the scapy module
+    UDP chat is achieved using the socket module for
+    sending and receving messages
+'''
+
 import sys
 import socket
 import select
