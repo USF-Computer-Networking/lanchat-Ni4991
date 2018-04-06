@@ -76,13 +76,15 @@ def send():
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python lanchat.py [scan] [send]")
+        print("Usage: python lanchat.py --scan --send")
         return
-
-    if sys.argv[1] == "scan":
+    if sys.argv[1] == "-h":
+        print("Usage: python lanchat.py --scan --send")
+        
+    if sys.argv[1] == "--scan":
         scan()
     
-    if sys.argv[1] == "send":
+    if sys.argv[1] == "--send":
         send()
 
 if __name__ == '__main__':
