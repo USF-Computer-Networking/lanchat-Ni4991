@@ -1,4 +1,4 @@
-AQMP
+AMQP
 ===================
 TODO: difference bet blocking and non-blocking modes of operation.<br/>
 Usage:<br>
